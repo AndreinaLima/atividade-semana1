@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="AndreinaLima" />
+    <meta name="keywords" content="Web, Html, Cursos, Tecnologia" />
+  <title>Faq de perguntas frequentes</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Fontes e ícones -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet">
+    
+    <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+  <header>
+    <h2><span class="material-symbols-outlined">
+      quiz
+    </span>Faq</h2>
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a href="#contato">Contato</a>
+      <a href="#duvidas">Dúvidas</a>
+    </nav>
+  </header>
+  <main>
+    <section id="contato">
+      <img src="/img/contato-telefone.jpg" alt="Imagem de um telefone">
+
+      <form>
+        <div class="forms">
+          <label for="Nome">Nome:</label>
+          <input type="text" name="nome" id="Nome" required>
+
+          <label for="Endereco">Endereço:</label>
+          <input type="text" name="endereco" id="Endereco">
+
+          <label for="Telefone">Telefone:</label>
+          <input type="tel" name="telefone" id="Telefone">
+
+          <label for="Tipo-de-contato">Motivo do contato:</label>
+          <select name="Tipo-de-contato" id="Tipo-de-comida">
+            <option disabled selected>Mais informações</option>
+            <option>Não consigo realizar pagamento</option>
+            <option>Não sei qual curso escolher</option>
+            <option>Ajuda técnica</option>
+          </select>
+
+          <label for="Mensagem">Mensagem:</label>
+          <textarea name="mensagem" id="Mensagem" placeholder="Deixe sua mensagem" required></textarea>
+
+          <button type="submit">Enviar</button>
+        </div>
+      </form>
+    </section>
+
+    <section id="duvidas">
+      <h3>Faq</h3>
+      <p>Dúvidas Frequentes</p>
+      <div class="lista">
+      <ol>
+        <li>Quais cursos estão disponíveis?</li>
+        <li>Como faço para me matricular em um curso?</li>
+        <li>Como faço para entrar em contato com o suporte técnico em caso de problemas?</li>
+        <li>É possível acessar os cursos offline?</li>
+        <li>Quais são os requisitos técnicos para acessar os cursos?</li>
+      </ol>
+      <img src="/img/faq-img (1).svg" alt="">
+      </div>
+      <hr>
+    <div class="article">
+      <article>
+        <h3>Quais cursos estão disponíveis?</h3>
+        <p>Nossa escola oferece uma variedade de cursos em diversas áreas, incluindo programação, design, marketing digital e
+          muito mais. Você pode encontrar a lista completa de cursos em nosso site.</p>
+      </article>
+
+      <article>
+        <h3>Como faço para me matricular em um curso?</h3>
+        <p>O processo de matrícula é simples. Basta acessar nosso site, navegar pelos cursos disponíveis e clicar no botão de
+          matrícula do curso desejado. Você será guiado pelo processo de inscrição em seguida.</p>
+      </article>
+
+          <article>
+            <h3>Como faço para entrar em contato com o suporte técnico em caso de problemas?</h3>
+            <p>Se você encontrar algum problema técnico durante o acesso aos cursos, entre em contato com nossa equipe de suporte
+              técnico pelo e-mail support@escolavirtual.com ou pelo telefone (XX) XXXX-XXXX. Estamos disponíveis para ajudar de
+              segunda a sexta, das 9h às 18h.</p>
+          </article>
+
+      <article>
+        <h3>É possível acessar os cursos offline?</h3>
+        <p>No momento, nossos cursos são oferecidos apenas na modalidade online. Isso permite que você acesse o conteúdo a
+          qualquer momento e de qualquer lugar com acesso à internet, proporcionando flexibilidade em seus estudos.</p>
+      </article>
+
+          <article>
+            <h3>Quais são os requisitos técnicos para acessar os cursos?</h3>
+            <p>Nossos cursos podem ser acessados em qualquer dispositivo com acesso à internet. Recomendamos o uso de um
+              computador ou laptop para uma melhor experiência de aprendizado, mas também é possível acessar os cursos em tablets
+              e smartphones.</p>
+          </article>
+    </div>
+    </section>
+  </main>
+
+    <footer>
+      <span class="material-symbols-outlined">
+        favorite
+      </span>
+      <p>Criado por: Andreina Lima durante aula do BootCamp da SoulCode. &copy; 2024 Escola Virtual. Todos os direitos reservados.</p>
+
+    </footer>
+</body>
+</html>
